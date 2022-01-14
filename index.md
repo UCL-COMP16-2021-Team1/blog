@@ -3,6 +3,7 @@
 ## Development
 ### Week 3
 Date: 13/12/2021
+
 Based on our research and requirements analysis, we have refined our requirements to make them more coherent and now focus on 3D tennis shot analysis. This will involve extracting 3D skeletal animations of tennis shots from video and training a model to classify them. Our client and Professor Dean have happily agreed to these changes.
 
 We have researched into extracting 3D poses from video using [MediaPipe](https://google.github.io/mediapipe/) and classifying 3D tennis shot animations using methods such as [CNN models](https://arxiv.org/abs/1704.07595) and [graph convolutional network models](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7662764/). We have found an [open-access dataset](http://thetis.image.ece.ntua.gr/) of 3D tennis shot animations (of both amateurs and experts) that we can use to train the models.
