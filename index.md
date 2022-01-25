@@ -1,6 +1,15 @@
 # 3D Tennis Analysis with CV/AI
 
 ## Development
+### Week 5
+Date: 17/01/2022
+
+Over the last 2 weeks of the project we’ve all individually worked on our specified experiments in which we did research for. Some results we obtained was obtaining a 85-90% accuracy on one of our models based on Convolutional Neural Networks and successfully extracting the 3D skeleton poses from a basic video feed of a single tennis player.
+
+Subsequently we prepared and scripted for the elevator pitch where we presented our project and its selling points as well as the current progress we’ve had, presenting the pitch to our tutors as well as our clients on the 21st of January.
+
+From here, we plan to start creating the pipeline between the extracted 3D skeleton avatars from Media Pipe and the CNN model, as well as starting to work on the 3D reconstruction where we visualise the 3D data we have. We also plan to complete a second model based on Spatial Temporal Graph Convolutional Networks and conduct a pseudo user interview to gain more information on what users would prefer in a UI so we can begin creating that in the following weeks.
+
 ### Week 3
 Date: 13/12/2021
 
