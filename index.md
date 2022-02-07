@@ -1,6 +1,16 @@
 # 3D Tennis Analysis with CV/AI
 
 ## Development
+
+### Week 8
+Date: 07/02/2022
+
+We've continued working on each of our individual experiments and have started merginig our work together in order to check the compatibility between different sections. Notably, we've created a pipeline between the poses extracted by [MediaPipe](https://google.github.io/mediapipe/) and shot recognition as well as fixed a few calibration errors, which has resulted in 90.6% accuracy with the implemented Convolutional Neural Network model.
+
+Furthermore, in order to make sure our product is in fact targeted towards the user, we conducted interviews with a group of pseudo-users consisting of one fan, one tennis player and one coach, which provided us with more details as well as more goals to complete our final project.
+
+We've also begun working on reconstructing shots with 3D skeletons using the [Three.js](https://threejs.org) JavaScript library and are currently figuring out how to include court boundaries and ball coordinates. We're presently aiming at completing the second ST-GCN model as well as analyzing the pseudo-user data in order to better configure our final product.
+
 ### Week 5
 Date: 17/01/2022
 
