@@ -2,6 +2,20 @@
 
 ## Development
 
+### Week 10
+Date: 21/02/2022
+
+Last week, we attempted to configure our current pipeline to be able to work with real live tennis matches. One issue we ran into at the beginning of this, was to do with not being able to properly extract the 2 players in the video feed due to limitations of mediapipe and how there is a certain distance limit for mediapipe to work properly. Another issue was to do with having many other people in the frame. 
+We attempted to solve this by first running box-tracking on the video to track the players and then crop into those boxes to perform the skeletal pose extraction. However, there were more issues that arose with the shot recognition not being able to perform properly due to things such as bad camera angles since the player sometimes has their back towards the camera and their arms aren’t properly extracted.
+
+Moreover, we successfully got the 3D reconstruction working as well as getting the webapp to work with this, Three.js. We aim to also get this to work with .gltf files in order to obtain 3D reconstructions of the video feeds that we analyse.
+
+While working on getting the pipeline analysis working and the 3D reconstruction, we started analysing the information we had acquired from our pseudo interviews, to use in creating our personas and use case diagrams. From the information and preferences we gathered, we created wireframes to represent how the UI would be used. 
+
+In the following week, we took some time to discuss the doability of being able to analyse tennis matches and came to realise that given the resources we had, it would be difficult to accomplish this. From there we collectively decided to change the scope of our project slighlty and aim to create a Tennis trainer app that instead utilises the front camera to record a players shots and movement. The plan would be to keep almost of the analytics and features the same with the shot recognition and 3D reconstruction but instead of it working on a tennis match, it would be just one player infront of the camera taking practice shots which will be analysed. This would better suit the data set which we used to train our model on as well.
+
+We are now currently aiming to redesign our wireframes to suit the idea of a Tennis training app as well as get a basic prototype of our program running with a simple front-end to display how the program would function.
+
 ### Week 8
 Date: 07/02/2022
 
