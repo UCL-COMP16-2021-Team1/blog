@@ -2,6 +2,24 @@
 
 ## Development
 
+### Week 14
+Date: 21/03/2022
+
+Since the last update, we've finished refining our shot recognition model and have now also completed our front-end design, utilising Bootstrap to create a simple and clean UI. We are also working on outputting .BVH files from the players' data so that it can be used for things like attaching models etc. 
+
+Furthermore, we have created our scripts and slides for the upcoming final presentation where we will present our project to our client and assessors. We will soon film and record our presentation video to be ready for the 23rd deadline.
+
+As part of our final deliverables, we have also begun working on creating an executable for our program so that it would be much easier for non-technical users to use our program.
+
+### Week 12
+Date: 07/03/2022
+
+Over the last 2 weeks, we began creating the backend API using Flask as well as the front-end with Vue.js to connect the analysis pipeline to the front-end web application. Furthermore, since the last blog update we've narrowed the scope in the type of shots we recognise as we realised having so many different shots made recognising the various shots more difficult and in most scenarios, those shot types wouldn't be sought for by general players. From recognising 12 shot types we now have narrowed it to 4. Due to this, we've worked on further refining the model to work more generically for both front-end and back-facing cameras, compared to just being a tennis trainer application as we said in the last blog update. It would now be a general tennis analytics application that can be used for various purposes.
+
+Furthermore, when creating our backend API, we made sure to keep it flexible and extendable so that other developers would easily be able to make use of the system we've created and the more in-depth analysis it has to offer. This would especially apply to our project partners as they would want to use it in a more professional scenario.
+
+Additionally, we've begun creating our report website and filling it in with the information we can at the moment, such as the Home and Requirement page.
+
 ### Week 10
 Date: 21/02/2022
 
